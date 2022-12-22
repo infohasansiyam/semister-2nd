@@ -30,13 +30,26 @@
 // mathMatic(N1,N2,N3);
 
 
-// function username,password----------------------
-function math(user,pass){
-        
-    document.write("<br/> Username is : "+ user)
-    document.write("<br/> User's Password : "+ pass) 
+// function username,password-----22.12.22-----------------
 
-}
+// function math(user,pass){
+        
+//     document.write("<br/> Username is : "+ user)
+//     document.write("<br/> User's Password : "+ pass) }
+// let user=prompt("Enter user name");
+// let pass=prompt("Enter your Password");
+// math(user,pass)
+
+//iifes (immediately invokeable function Expressions) function 
+
+// (function show(user,pass){
+//     document.write("<br/>immediately invokeable function Expressions: " + user);
+//     document.write("<br/>immediately invokeable function Expressions: " + pass);
+// })(user,pass);
+
 let user=prompt("Enter user name");
 let pass=prompt("Enter your Password");
-math(user,pass)
+(function show(){
+    document.write("<br/> User is : "+ user)
+    document.write("<br/> Password : "+ pass)
+})();
