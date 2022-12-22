@@ -29,10 +29,12 @@
 // let N3=Number (prompt("Enter a Number: "));
 // mathMatic(N1,N2,N3);
 
+
+// function username,password----------------------
 function math(user,pass){
         
     document.write("<br/> Username is : "+ user)
-    document.write("<br/> User's Password : "+ pass)
+    document.write("<br/> User's Password : "+ pass) 
 
 }
 let user=prompt("Enter user name");
